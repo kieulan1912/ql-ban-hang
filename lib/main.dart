@@ -10,7 +10,6 @@ import 'package:quan_ly_ban_hang/config/get_config.dart';
 import 'package:quan_ly_ban_hang/modules/auth/login/login_screen.dart';
 import 'package:quan_ly_ban_hang/modules/init.dart';
 import 'package:quan_ly_ban_hang/modules/routers.dart';
-import 'package:quan_ly_ban_hang/modules/splash/splash_screen.dart';
 
 Future<void> main() async {
   await GetStorage.init();

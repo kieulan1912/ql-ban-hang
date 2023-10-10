@@ -2,6 +2,28 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Dev Test Login",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--flavor",
+                "dev"
+            ],
+            "program": "integration_test/app_test.dart"
+        },
+        {
+            "name": "Dev Test Validate",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "args": [
+                "--flavor",
+                "dev"
+            ],
+            "program": "integration_test/validate_test.dart"
+        },
+        {
             "name": "dev Debug",
             "request": "launch",
             "type": "dart",

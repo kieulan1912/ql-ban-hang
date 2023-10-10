@@ -11,7 +11,7 @@ enum TypeToast {
   toastSuccess
 }
 
-void buildToast(
+buildToast(
     {String? title,
     required String message,
     required TypeToast status,
