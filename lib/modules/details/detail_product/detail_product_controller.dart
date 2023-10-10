@@ -3,12 +3,12 @@ import 'dart:io';
 import 'package:bottom_bar_matu/utils/app_utils.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/data/models/product.dart';
-import 'package:quan_ly_ban_hang/data/models/select_option_item.dart';
-import 'package:quan_ly_ban_hang/data/repositories/imgur_repo.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/product_mixin.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/data/models/product.dart';
+import 'package:ql_ban_hang/data/models/select_option_item.dart';
+import 'package:ql_ban_hang/data/repositories/imgur_repo.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/product_mixin.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 import 'package:uuid/uuid.dart';
 
 class DetailProductController extends GetxController

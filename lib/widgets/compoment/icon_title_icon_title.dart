@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 Widget iconTitleIconTitle(
     {required String title1,
@@ -18,7 +18,7 @@ Widget iconTitleIconTitle(
             color: Colors.grey,
           ),
           cWidth(8),
-          textBodyMedium( title1),
+          textBodyMedium(title1),
         ],
       )),
       Expanded(
@@ -31,7 +31,7 @@ Widget iconTitleIconTitle(
             color: Colors.grey,
           ),
           cWidth(8),
-          textBodyMedium( title2),
+          textBodyMedium(title2),
         ],
       ))
     ],

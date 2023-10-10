@@ -10,7 +10,7 @@
                 "--flavor",
                 "dev"
             ],
-            "program": "integration_test/app_test.dart"
+            "program": "integration_test/login_app_integrate_test.dart"
         },
         {
             "name": "Dev Test Validate",
@@ -21,7 +21,7 @@
                 "--flavor",
                 "dev"
             ],
-            "program": "integration_test/validate_test.dart"
+            "program": "integration_test/login_validate_unit_test.dart"
         },
         {
             "name": "dev Debug",

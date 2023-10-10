@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:flutx_ui/flutx.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_tools/data_tools.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_tools/list_tools_controller.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/list_item/list_item_tool.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/text_search.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/modules/list/list_tools/data_tools.dart';
+import 'package:ql_ban_hang/modules/list/list_tools/list_tools_controller.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/list_item/list_item_tool.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/text_search.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 class ListToolsSreen extends StatefulWidget {
   const ListToolsSreen({super.key});

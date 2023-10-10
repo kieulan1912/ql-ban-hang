@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/widgets/count_down_timer.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/widgets/count_down_timer.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 Widget buildTime({required Duration duration}) {
   String twoDigits(int n) => n.toString().padLeft(2, '0');

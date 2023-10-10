@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 
 Widget buildBody(
     {required BuildContext context,
@@ -35,16 +35,15 @@ Future<bool> onWillPop(BuildContext context, bool isCheckBeforePop) async {
   bool exitResult = await showDialog(
     context: context,
     builder: (context) => CupertinoAlertDialog(
-      title: textBodyLarge( "Thông báo", fontWeight: FontWeight.w700),
+      title: textBodyLarge("Thông báo", fontWeight: FontWeight.w700),
       content: Container(
         margin: const EdgeInsets.only(top: 16),
-        child:
-            textBodyMedium( "Bạn có chắc chắn muốn thoát khỏi ứng dụng?"),
+        child: textBodyMedium("Bạn có chắc chắn muốn thoát khỏi ứng dụng?"),
       ),
       actions: <Widget>[
         CupertinoDialogAction(
           child: textBodyMedium(
-             "Hủy",
+            "Hủy",
             color: Get.theme.colorScheme.error,
           ),
           onPressed: () {
@@ -53,7 +52,7 @@ Future<bool> onWillPop(BuildContext context, bool isCheckBeforePop) async {
         ),
         CupertinoDialogAction(
           child: textBodyMedium(
-             'Xác nhận',
+            'Xác nhận',
           ),
           onPressed: () {
             Navigator.of(context).pop(true);

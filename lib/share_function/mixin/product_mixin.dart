@@ -2,11 +2,11 @@ import 'package:appwrite/appwrite.dart';
 import 'package:bottom_bar_matu/utils/app_utils.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
-import 'package:quan_ly_ban_hang/data/models/product.dart';
-import 'package:quan_ly_ban_hang/data/repositories/appwrite_repo.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_product/list_product_controller.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/data/models/product.dart';
+import 'package:ql_ban_hang/data/repositories/appwrite_repo.dart';
+import 'package:ql_ban_hang/modules/list/list_product/list_product_controller.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 
 ListProductController listProductController = Get.find();
 

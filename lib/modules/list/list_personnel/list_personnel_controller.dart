@@ -2,12 +2,12 @@ import 'dart:async';
 import 'package:convert_vietnamese/convert_vietnamese.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/data/models/personnel.dart';
-import 'package:quan_ly_ban_hang/data/models/unit.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/filterdata_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/personnel_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/data/models/personnel.dart';
+import 'package:ql_ban_hang/data/models/unit.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/filterdata_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/personnel_mixin.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
 
 class ListPersonnelController extends GetxController
     with

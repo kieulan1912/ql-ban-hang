@@ -1,8 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/user_mixin.dart';
-
+import 'package:ql_ban_hang/share_function/mixin/user_mixin.dart';
 
 class HomeController extends GetxController
     with GetTickerProviderStateMixin, StateMixin, UserMixin {
@@ -10,7 +9,6 @@ class HomeController extends GetxController
   PageController pageController = PageController(
     viewportFraction: 1.0,
   );
-
 
   @override
   Future<void> onInit() async {
@@ -20,16 +18,12 @@ class HomeController extends GetxController
     super.onInit();
   }
 
-
-  Future init() async {
-  }
-
- 
+  Future init() async {}
 
   Future initData() async {
     // loadingUI();
     // user = getUserInBox();
-    
+
     changeUI();
   }
 

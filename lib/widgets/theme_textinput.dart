@@ -1,4 +1,4 @@
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 import 'package:flutter/material.dart';
 
 InputDecoration textFieldInputStyle(
@@ -6,7 +6,7 @@ InputDecoration textFieldInputStyle(
   return InputDecoration(
     //helperText: 'Helper Text',
     //counterText: '0 characters',
-    label: textBodyMedium( label, color: Colors.grey),
+    label: textBodyMedium(label, color: Colors.grey),
     floatingLabelBehavior: FloatingLabelBehavior.always,
     enabledBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(20),

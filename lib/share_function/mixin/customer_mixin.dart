@@ -1,9 +1,9 @@
 import 'package:appwrite/appwrite.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
-import 'package:quan_ly_ban_hang/data/repositories/appwrite_repo.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
-import 'package:quan_ly_ban_hang/data/models/customer.dart';
+import 'package:ql_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/data/repositories/appwrite_repo.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/data/models/customer.dart';
 
 mixin CustomerMixin {
   AppWriteRepo appWriteRepo = AppWriteRepo();
@@ -13,7 +13,7 @@ mixin CustomerMixin {
   /// ds khach hàng
   Future<List<Customer>?> getListCustomerMixin({bool isCache = false}) async {
     if (isCache &&
-        listCustomerMixin!= null &&
+        listCustomerMixin != null &&
         (listCustomerMixin?.isNotEmpty ?? false)) {
       return listCustomerMixin;
     }
@@ -21,7 +21,7 @@ mixin CustomerMixin {
         databaseId: Env.config.appWriteDatabaseID,
         collectionId: Env.config.tblCustomerID);
     if (res.documents.isNotEmpty) {
-      listCustomerMixin=
+      listCustomerMixin =
           res.documents.map((e) => Customer.fromJson(e.data)).toList();
     } else {
       buildToast(

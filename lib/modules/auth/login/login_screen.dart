@@ -1,12 +1,12 @@
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:quan_ly_ban_hang/modules/auth/login/login_controller.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/loading_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/modules/auth/login/login_controller.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/loading_custom.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getwidget/getwidget.dart';
-import 'package:quan_ly_ban_hang/widgets/theme_textinput.dart';
+import 'package:ql_ban_hang/widgets/theme_textinput.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

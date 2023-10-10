@@ -2,7 +2,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
 
 class PieChartSample2 extends StatefulWidget {
   final double x;

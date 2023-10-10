@@ -1,6 +1,6 @@
 import 'package:get_storage/get_storage.dart';
 import 'package:appwrite/appwrite.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/config/config.dart';
 
 Client client = Client()
     .setEndpoint(Env.config.endpointAppWrite) // Your Appwrite Endpoint

@@ -1,4 +1,4 @@
-import 'package:quan_ly_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/config/config.dart';
 
 class Environment extends ModuleConfig {
   Environment() {

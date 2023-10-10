@@ -3,24 +3,24 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/data/models/detail_request_return.dart';
-import 'package:quan_ly_ban_hang/data/models/request_return.dart';
+import 'package:ql_ban_hang/data/models/detail_request_return.dart';
+import 'package:ql_ban_hang/data/models/request_return.dart';
 
-import 'package:quan_ly_ban_hang/data/models/supplier.dart';
-import 'package:quan_ly_ban_hang/data/models/personnel.dart';
-import 'package:quan_ly_ban_hang/data/models/product.dart';
-import 'package:quan_ly_ban_hang/data/models/select_option_item.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/data/models/unit.dart';
-import 'package:quan_ly_ban_hang/data/models/user.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/request_return_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/supplier_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/personnel_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/product_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/user_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/data/models/supplier.dart';
+import 'package:ql_ban_hang/data/models/personnel.dart';
+import 'package:ql_ban_hang/data/models/product.dart';
+import 'package:ql_ban_hang/data/models/select_option_item.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/data/models/unit.dart';
+import 'package:ql_ban_hang/data/models/user.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/request_return_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/supplier_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/personnel_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/product_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/user_mixin.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 import 'package:uuid/uuid.dart';
 
 class DetailRequestReturnController extends GetxController

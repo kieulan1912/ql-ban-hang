@@ -4,16 +4,16 @@ import 'package:bottom_bar_matu/utils/app_utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
-import 'package:quan_ly_ban_hang/data/models/customer.dart';
-import 'package:quan_ly_ban_hang/data/models/select_option_item.dart';
+import 'package:ql_ban_hang/data/models/customer.dart';
+import 'package:ql_ban_hang/data/models/select_option_item.dart';
 
-import 'package:quan_ly_ban_hang/data/models/user.dart';
-import 'package:quan_ly_ban_hang/data/repositories/imgur_repo.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/customer_mixin.dart';
+import 'package:ql_ban_hang/data/models/user.dart';
+import 'package:ql_ban_hang/data/repositories/imgur_repo.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/customer_mixin.dart';
 
-import 'package:quan_ly_ban_hang/share_function/mixin/user_mixin.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/share_function/mixin/user_mixin.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 import 'package:uuid/uuid.dart';
 
 class CustomerDetailController extends GetxController
@@ -81,9 +81,11 @@ class CustomerDetailController extends GetxController
     nameTE?.text = customer?.name ?? '';
     genderTE?.text = customer?.gender ?? '';
     noteTE?.text = customer?.note ?? '';
-    genderItemSelect = listGender.where(
-      (element) => element.value == customer?.gender,
-    ).firstOrNull;
+    genderItemSelect = listGender
+        .where(
+          (element) => element.value == customer?.gender,
+        )
+        .firstOrNull;
     update();
   }
 

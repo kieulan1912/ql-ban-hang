@@ -1,5 +1,5 @@
-import 'package:quan_ly_ban_hang/modules/splash/splash_controller.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/modules/splash/splash_controller.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

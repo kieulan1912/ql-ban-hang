@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 Widget blockStatistical(
     {required String title,
@@ -53,7 +53,8 @@ Widget blockStatistical(
                           padding: const EdgeInsets.all(8),
                           child: textTitleSmall(
                               ShareFuntion.formatNumber(number: value),
-                              fontWeight: FontWeight.w900,textAlign: TextAlign.center)),
+                              fontWeight: FontWeight.w900,
+                              textAlign: TextAlign.center)),
                     ],
                   ),
             ),

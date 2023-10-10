@@ -1,15 +1,15 @@
 import 'dart:async';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/data/models/select_option_item.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/data/models/supplier.dart';
-import 'package:quan_ly_ban_hang/data/models/warehouse_receipt.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/filterdata_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/supplier_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/warehouse_receipt_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/data/models/select_option_item.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/data/models/supplier.dart';
+import 'package:ql_ban_hang/data/models/warehouse_receipt.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/filterdata_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/supplier_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/warehouse_receipt_mixin.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
 
 class ListWarehouseReceiptController extends GetxController
     with

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 Widget iconTitle2Line({required String title, required IconData icon}) {
   return Row(
@@ -16,7 +16,7 @@ Widget iconTitle2Line({required String title, required IconData icon}) {
         ),
       ),
       cWidth(8),
-      Expanded(child: textBodyMedium( title))
+      Expanded(child: textBodyMedium(title))
     ],
   );
 }

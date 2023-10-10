@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 Widget buildTime1({required Duration duration}) {
   String twoDigits(int n) => n.toString().padLeft(2, '0');
@@ -41,13 +41,13 @@ Widget buildTimeCard(
                 color: Colors.white30,
                 borderRadius: BorderRadius.circular(100)),
             child: textTitleMedium(
-               time,
+              time,
               fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
           ),
           cHeight(12),
-          textBodySmall( header, color: Colors.white54),
+          textBodySmall(header, color: Colors.white54),
         ],
       ),
     );
@@ -55,6 +55,6 @@ Widget buildTimeCard(
 Widget lineTime() {
   return Container(
     margin: const EdgeInsets.only(bottom: 4 * 9),
-    child: textTitleLarge( ':', color: Colors.white54),
+    child: textTitleLarge(':', color: Colors.white54),
   );
 }

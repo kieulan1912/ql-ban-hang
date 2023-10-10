@@ -3,13 +3,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/c_lang/c_translations.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
-import 'package:quan_ly_ban_hang/config/get_config.dart';
-import 'package:quan_ly_ban_hang/modules/auth/login/login_screen.dart';
-import 'package:quan_ly_ban_hang/modules/init.dart';
-import 'package:quan_ly_ban_hang/modules/routers.dart';
+import 'package:ql_ban_hang/c_lang/c_translations.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/config/get_config.dart';
+import 'package:ql_ban_hang/modules/auth/login/login_screen.dart';
+import 'package:ql_ban_hang/modules/init.dart';
+import 'package:ql_ban_hang/modules/routers.dart';
 
 Future<void> main() async {
   await GetStorage.init();

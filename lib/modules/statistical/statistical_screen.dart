@@ -1,20 +1,20 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/modules/statistical/statistical_controller.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/modules/statistical/statistical_controller.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/widgets/chart/barchart1.dart';
-import 'package:quan_ly_ban_hang/widgets/chart/line_chart_sample2.dart';
-import 'package:quan_ly_ban_hang/widgets/chart/radar_chart_sample1.dart';
-import 'package:quan_ly_ban_hang/widgets/compoment/block_statistical.dart';
-import 'package:quan_ly_ban_hang/widgets/hide_widget.dart';
-import 'package:quan_ly_ban_hang/widgets/loading_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/widgets/chart/barchart1.dart';
+import 'package:ql_ban_hang/widgets/chart/line_chart_sample2.dart';
+import 'package:ql_ban_hang/widgets/chart/radar_chart_sample1.dart';
+import 'package:ql_ban_hang/widgets/compoment/block_statistical.dart';
+import 'package:ql_ban_hang/widgets/hide_widget.dart';
+import 'package:ql_ban_hang/widgets/loading_custom.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 class StatisticalScreen extends StatefulWidget {
   const StatisticalScreen({Key? key}) : super(key: key);

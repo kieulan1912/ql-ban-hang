@@ -5,19 +5,19 @@ import 'package:flutx_ui/flutx.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_supplier/supplier_detail_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_supplier/list_supplier_controller.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
-import 'package:quan_ly_ban_hang/widgets/empty.dart';
-import 'package:quan_ly_ban_hang/widgets/list_item/list_item_supplier.dart';
-import 'package:quan_ly_ban_hang/widgets/shimmer/loading/loadding_refreshindicator.dart';
-import 'package:quan_ly_ban_hang/widgets/shimmer/loading/loding_list.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/text_search.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/modules/details/detail_supplier/supplier_detail_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_supplier/list_supplier_controller.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/widgets/empty.dart';
+import 'package:ql_ban_hang/widgets/list_item/list_item_supplier.dart';
+import 'package:ql_ban_hang/widgets/shimmer/loading/loadding_refreshindicator.dart';
+import 'package:ql_ban_hang/widgets/shimmer/loading/loding_list.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/text_search.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 class ListSupplierSreen extends StatefulWidget {
   const ListSupplierSreen({super.key});
@@ -56,36 +56,33 @@ class _ListSupplierState extends State<ListSupplierSreen> {
                     );
                   },
                   child: AnimationLimiter(
-                    child:listSupplierController.listSupplierResult !=
-                              null &&
-                          listSupplierController
-                              .listSupplierResult!.isEmpty
-                      ? emptyWidget(
-                          onTap: () async {
-                            await listSupplierController
-                                .getListSuppliers();
-                          },
-                        )
-                      :  ListView.builder(
-                      itemCount:
-                          listSupplierController.listSupplierResult?.length ??
-                              0,
-                      itemBuilder: (BuildContext context, int index) {
-                        return AnimationConfiguration.staggeredList(
-                          position: index,
-                          duration: const Duration(milliseconds: 500),
-                          child: SlideAnimation(
-                            verticalOffset: 50.0,
-                            child: FadeInAnimation(
-                              child: itemSupplier(
-                                supplier: listSupplierController
-                                    .listSupplierResult?[index],
-                              ),
-                            ),
+                    child: listSupplierController.listSupplierResult != null &&
+                            listSupplierController.listSupplierResult!.isEmpty
+                        ? emptyWidget(
+                            onTap: () async {
+                              await listSupplierController.getListSuppliers();
+                            },
+                          )
+                        : ListView.builder(
+                            itemCount: listSupplierController
+                                    .listSupplierResult?.length ??
+                                0,
+                            itemBuilder: (BuildContext context, int index) {
+                              return AnimationConfiguration.staggeredList(
+                                position: index,
+                                duration: const Duration(milliseconds: 500),
+                                child: SlideAnimation(
+                                  verticalOffset: 50.0,
+                                  child: FadeInAnimation(
+                                    child: itemSupplier(
+                                      supplier: listSupplierController
+                                          .listSupplierResult?[index],
+                                    ),
+                                  ),
+                                ),
+                              );
+                            },
                           ),
-                        );
-                      },
-                    ),
                   ),
                 ),
             onLoading: const LoadingList()),

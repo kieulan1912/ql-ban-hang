@@ -1,9 +1,8 @@
-
-import 'package:quan_ly_ban_hang/modules/acc_detail/account_detail_controller.dart';
-import 'package:quan_ly_ban_hang/modules/home/home_controller.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/bottom_nav_bar.dart';
-import 'package:quan_ly_ban_hang/widgets/loading_custom.dart';
+import 'package:ql_ban_hang/modules/acc_detail/account_detail_controller.dart';
+import 'package:ql_ban_hang/modules/home/home_controller.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/bottom_nav_bar.dart';
+import 'package:ql_ban_hang/widgets/loading_custom.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

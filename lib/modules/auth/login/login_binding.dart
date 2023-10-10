@@ -1,4 +1,4 @@
-import 'package:quan_ly_ban_hang/modules/auth/login/login_controller.dart';
+import 'package:ql_ban_hang/modules/auth/login/login_controller.dart';
 import 'package:get/get.dart';
 
 class LoginBinding extends Bindings {

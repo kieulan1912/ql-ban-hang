@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
 
 void showBlockDetail({required Widget widget}) {
   Get.bottomSheet(

@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/data/models/request_return.dart';
-import 'package:quan_ly_ban_hang/data/models/select_option_item.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/filterdata_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/request_return_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/data/models/request_return.dart';
+import 'package:ql_ban_hang/data/models/select_option_item.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/filterdata_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/request_return_mixin.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
 
 class ListRequestReturnController extends GetxController
     with

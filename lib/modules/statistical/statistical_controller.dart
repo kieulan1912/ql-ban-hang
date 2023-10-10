@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/data/models/request_return.dart';
-import 'package:quan_ly_ban_hang/data/models/sales_order.dart';
-import 'package:quan_ly_ban_hang/data/models/warehouse_receipt.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/request_return_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/sales_order_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/warehouse_receipt_mixin.dart';
+import 'package:ql_ban_hang/data/models/request_return.dart';
+import 'package:ql_ban_hang/data/models/sales_order.dart';
+import 'package:ql_ban_hang/data/models/warehouse_receipt.dart';
+import 'package:ql_ban_hang/share_function/mixin/request_return_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/sales_order_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/warehouse_receipt_mixin.dart';
 
 class StatisticalController extends GetxController
     with

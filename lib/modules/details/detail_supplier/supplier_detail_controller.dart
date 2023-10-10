@@ -1,14 +1,14 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/data/models/supplier.dart';
-import 'package:quan_ly_ban_hang/data/models/user.dart';
-import 'package:quan_ly_ban_hang/data/repositories/imgur_repo.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/supplier_mixin.dart';
+import 'package:ql_ban_hang/data/models/supplier.dart';
+import 'package:ql_ban_hang/data/models/user.dart';
+import 'package:ql_ban_hang/data/repositories/imgur_repo.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/supplier_mixin.dart';
 
-import 'package:quan_ly_ban_hang/share_function/mixin/user_mixin.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/share_function/mixin/user_mixin.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 import 'package:uuid/uuid.dart';
 
 class SupplierDetailController extends GetxController

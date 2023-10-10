@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/data/repositories/imgur_repo.dart';
-import 'package:quan_ly_ban_hang/data/storage.dart';
+import 'package:ql_ban_hang/data/repositories/imgur_repo.dart';
+import 'package:ql_ban_hang/data/storage.dart';
 // import 'package:appwrite/appwrite.dart';
-import 'package:quan_ly_ban_hang/modules/auth/login/login_screen.dart';
-import 'package:quan_ly_ban_hang/modules/home/home_screen.dart';
+import 'package:ql_ban_hang/modules/auth/login/login_screen.dart';
+import 'package:ql_ban_hang/modules/home/home_screen.dart';
 // import 'package:dart_appwrite/dart_appwrite.dart' as server_appwrite;
 
 class SplashController extends GetxController

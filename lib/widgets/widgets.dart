@@ -1,6 +1,5 @@
-
-import 'package:quan_ly_ban_hang/widgets/color_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/color_custom.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getwidget/getwidget.dart';

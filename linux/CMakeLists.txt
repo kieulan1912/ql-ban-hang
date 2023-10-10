@@ -4,10 +4,10 @@ project(runner LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "quan_ly_ban_hang")
+set(BINARY_NAME "ql_ban_hang")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
-set(APPLICATION_ID "com.vqh2602.qlbh.quan_ly_ban_hang")
+set(APPLICATION_ID "com.vqh2602.qlbh.ql_ban_hang")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

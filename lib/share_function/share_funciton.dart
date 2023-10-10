@@ -6,12 +6,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:quan_ly_ban_hang/data/models/category.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/data/models/unit.dart';
-import 'package:quan_ly_ban_hang/data/models/user.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/user_mixin.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/data/models/category.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/data/models/unit.dart';
+import 'package:ql_ban_hang/data/models/user.dart';
+import 'package:ql_ban_hang/share_function/mixin/user_mixin.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 

@@ -1,15 +1,15 @@
 import 'dart:async';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/data/models/customer.dart';
-import 'package:quan_ly_ban_hang/data/models/sales_order.dart';
-import 'package:quan_ly_ban_hang/data/models/select_option_item.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/customer_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/filterdata_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/sales_order_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/data/models/customer.dart';
+import 'package:ql_ban_hang/data/models/sales_order.dart';
+import 'package:ql_ban_hang/data/models/select_option_item.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/customer_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/filterdata_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/sales_order_mixin.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
 
 class ListSalesOrderController extends GetxController
     with

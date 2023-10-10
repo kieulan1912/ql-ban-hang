@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-import 'package:quan_ly_ban_hang/main.dart' as app;
-import 'package:quan_ly_ban_hang/modules/splash/splash_screen.dart' as splash;
+import 'package:ql_ban_hang/main.dart' as app;
+import 'package:ql_ban_hang/modules/splash/splash_screen.dart' as splash;
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();

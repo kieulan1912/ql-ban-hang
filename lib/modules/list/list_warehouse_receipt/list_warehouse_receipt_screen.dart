@@ -6,21 +6,21 @@ import 'package:flutx_ui/flutx.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_warehouse_receipt/detail_warehouse_receipt_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_warehouse_receipt/list_warehouse_receipt_controller.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
-import 'package:quan_ly_ban_hang/widgets/empty.dart';
-import 'package:quan_ly_ban_hang/widgets/list_item/list_item_warehouse_receipt.dart';
-import 'package:quan_ly_ban_hang/widgets/loading_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/s_show_chose.dart';
-import 'package:quan_ly_ban_hang/widgets/shimmer/loading/loadding_refreshindicator.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/text_search.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/modules/details/detail_warehouse_receipt/detail_warehouse_receipt_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_warehouse_receipt/list_warehouse_receipt_controller.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/widgets/empty.dart';
+import 'package:ql_ban_hang/widgets/list_item/list_item_warehouse_receipt.dart';
+import 'package:ql_ban_hang/widgets/loading_custom.dart';
+import 'package:ql_ban_hang/widgets/s_show_chose.dart';
+import 'package:ql_ban_hang/widgets/shimmer/loading/loadding_refreshindicator.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/text_search.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 class ListWarehouseReceiptSreen extends StatefulWidget {
   const ListWarehouseReceiptSreen({super.key});
@@ -59,34 +59,39 @@ class _ListWarehouseReceiptState extends State<ListWarehouseReceiptSreen> {
                   );
                 },
                 child: AnimationLimiter(
-                  child:
-                  listWarehouseReceiptController.listWarehouseReceiptResult != null &&
-                            listWarehouseReceiptController.listWarehouseReceiptResult!.isEmpty
-                        ? emptyWidget(
-                            onTap: () async {
-                              await listWarehouseReceiptController.getListWarehouseReceipt();
-                            },
-                          )
-                        : ListView.builder(
-                    itemCount: listWarehouseReceiptController
-                        .listWarehouseReceiptResult?.length,
-                    itemBuilder: (BuildContext context, int index) {
-                      return AnimationConfiguration.staggeredList(
-                        position: index,
-                        duration: const Duration(milliseconds: 500),
-                        child: SlideAnimation(
-                          verticalOffset: 50.0,
-                          child: FadeInAnimation(
-                            child: itemWarehouseReceipt(
-                                warehouseReceipt: listWarehouseReceiptController
-                                    .listWarehouseReceiptResult![index],
-                                listStatus:
-                                    listWarehouseReceiptController.listStatus),
-                          ),
+                  child: listWarehouseReceiptController
+                                  .listWarehouseReceiptResult !=
+                              null &&
+                          listWarehouseReceiptController
+                              .listWarehouseReceiptResult!.isEmpty
+                      ? emptyWidget(
+                          onTap: () async {
+                            await listWarehouseReceiptController
+                                .getListWarehouseReceipt();
+                          },
+                        )
+                      : ListView.builder(
+                          itemCount: listWarehouseReceiptController
+                              .listWarehouseReceiptResult?.length,
+                          itemBuilder: (BuildContext context, int index) {
+                            return AnimationConfiguration.staggeredList(
+                              position: index,
+                              duration: const Duration(milliseconds: 500),
+                              child: SlideAnimation(
+                                verticalOffset: 50.0,
+                                child: FadeInAnimation(
+                                  child: itemWarehouseReceipt(
+                                      warehouseReceipt:
+                                          listWarehouseReceiptController
+                                                  .listWarehouseReceiptResult![
+                                              index],
+                                      listStatus: listWarehouseReceiptController
+                                          .listStatus),
+                                ),
+                              ),
+                            );
+                          },
                         ),
-                      );
-                    },
-                  ),
                 ),
               ),
             ),

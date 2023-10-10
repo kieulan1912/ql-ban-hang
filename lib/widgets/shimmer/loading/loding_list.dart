@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quan_ly_ban_hang/widgets/library/shimmer/shimmer.dart';
+import 'package:ql_ban_hang/widgets/library/shimmer/shimmer.dart';
 
 class LoadingListEHome extends StatelessWidget {
   const LoadingListEHome({Key? key}) : super(key: key);

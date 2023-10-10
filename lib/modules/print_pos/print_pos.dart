@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_esc_pos_utils/flutter_esc_pos_utils.dart';
-import 'package:quan_ly_ban_hang/data/models/customer.dart';
-import 'package:quan_ly_ban_hang/data/models/sales_order.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_sales_invoice/detail_sales_invoice_controller.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/library/esc_pos_print/flutter_esc_pos_network.dart';
+import 'package:ql_ban_hang/data/models/customer.dart';
+import 'package:ql_ban_hang/data/models/sales_order.dart';
+import 'package:ql_ban_hang/modules/details/detail_sales_invoice/detail_sales_invoice_controller.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/library/esc_pos_print/flutter_esc_pos_network.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart' as pw;
 import 'package:printing/printing.dart';

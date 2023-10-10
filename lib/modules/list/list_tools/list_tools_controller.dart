@@ -3,7 +3,7 @@ import 'package:convert_vietnamese/convert_vietnamese.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_tools/data_tools.dart';
+import 'package:ql_ban_hang/modules/list/list_tools/data_tools.dart';
 
 class ListToolsController extends GetxController
     with GetTickerProviderStateMixin, StateMixin {

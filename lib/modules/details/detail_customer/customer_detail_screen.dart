@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutx_ui/flutx.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_customer/customer_detail_controller.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
-import 'package:quan_ly_ban_hang/widgets/loading_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/s_show_chose.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/theme_textinput.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/modules/details/detail_customer/customer_detail_controller.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/widgets/loading_custom.dart';
+import 'package:ql_ban_hang/widgets/s_show_chose.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/theme_textinput.dart';
 
 /// tham số truyền vào
 /// [type]: **view** - xem, và sửa; **create** - tạo ,

@@ -1,6 +1,5 @@
-
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/modules/statistical/statistical_controller.dart';
+import 'package:ql_ban_hang/modules/statistical/statistical_controller.dart';
 
 class StatisticalBinding extends Bindings {
   @override

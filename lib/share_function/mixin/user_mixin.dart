@@ -1,12 +1,12 @@
 import 'package:flutter_phoenix/flutter_phoenix.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
-import 'package:quan_ly_ban_hang/data/models/user.dart';
-import 'package:quan_ly_ban_hang/data/repositories/appwrite_repo.dart';
-import 'package:quan_ly_ban_hang/data/storage.dart';
-import 'package:quan_ly_ban_hang/modules/init.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/data/models/user.dart';
+import 'package:ql_ban_hang/data/repositories/appwrite_repo.dart';
+import 'package:ql_ban_hang/data/storage.dart';
+import 'package:ql_ban_hang/modules/init.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 
 mixin UserMixin {
   AppWriteRepo appWriteRepo = AppWriteRepo();
@@ -42,6 +42,7 @@ mixin UserMixin {
     }
     return result;
   }
+
   Future<void> saveUserInBox({User? user, Map? dataUser}) async {
     await box.write(Storages.dataUser, dataUser ?? user?.toJson());
   }

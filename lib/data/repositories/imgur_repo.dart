@@ -4,10 +4,10 @@ import 'dart:io';
 import 'package:dio/dio.dart' as dio;
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
-import 'package:quan_ly_ban_hang/data/storage.dart';
-import 'package:quan_ly_ban_hang/modules/splash/splash_screen.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/data/storage.dart';
+import 'package:ql_ban_hang/modules/splash/splash_screen.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 
 var dioRepo = dio.Dio(dio.BaseOptions(
   baseUrl: Env.config.imgurApi,

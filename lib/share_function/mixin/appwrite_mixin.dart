@@ -1,15 +1,15 @@
 import 'package:appwrite/appwrite.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
-import 'package:quan_ly_ban_hang/data/models/category.dart';
-import 'package:quan_ly_ban_hang/data/models/department.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/data/models/unit.dart';
-import 'package:quan_ly_ban_hang/data/models/user.dart';
-import 'package:quan_ly_ban_hang/data/repositories/appwrite_repo.dart';
-import 'package:quan_ly_ban_hang/data/storage.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
-import 'package:quan_ly_ban_hang/data/models/permission.dart' as permission;
+import 'package:ql_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/data/models/category.dart';
+import 'package:ql_ban_hang/data/models/department.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/data/models/unit.dart';
+import 'package:ql_ban_hang/data/models/user.dart';
+import 'package:ql_ban_hang/data/repositories/appwrite_repo.dart';
+import 'package:ql_ban_hang/data/storage.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/data/models/permission.dart' as permission;
 
 mixin AppWriteMixin {
   AppWriteRepo appWriteRepo = AppWriteRepo();

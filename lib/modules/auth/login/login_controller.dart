@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutx_ui/flutx.dart';
 import 'package:get/get.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/data/models/user.dart';
-import 'package:quan_ly_ban_hang/modules/home/home_screen.dart';
-import 'package:quan_ly_ban_hang/modules/splash/splash_screen.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/user_mixin.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/theme_textinput.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/data/models/user.dart';
+import 'package:ql_ban_hang/modules/home/home_screen.dart';
+import 'package:ql_ban_hang/modules/splash/splash_screen.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/user_mixin.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/theme_textinput.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 class LoginController extends GetxController
     with GetTickerProviderStateMixin, StateMixin, AppWriteMixin, UserMixin {

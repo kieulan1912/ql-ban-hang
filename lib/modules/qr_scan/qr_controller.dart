@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
-import 'package:quan_ly_ban_hang/data/models/product.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_product/detail_product_screen.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/product_mixin.dart';
+import 'package:ql_ban_hang/data/models/product.dart';
+import 'package:ql_ban_hang/modules/details/detail_product/detail_product_screen.dart';
+import 'package:ql_ban_hang/share_function/mixin/product_mixin.dart';
 import 'package:vibration/vibration.dart';
 
 class QrController extends GetxController

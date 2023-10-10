@@ -3,22 +3,22 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/modules/acc_detail/account_detail_screen.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_customer/customer_detail_screen.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_product/detail_product_screen.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_request_return/detail_request_return_screen.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_sales_invoice/detail_sales_invoice_screen.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_warehouse_receipt/detail_warehouse_receipt_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_customer/list_customer_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_personnel/list_personnel_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_product/list_product_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_request_return/list_request_return_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_sales_order/list_sales_order_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_supplier/list_supplier_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_warehouse_receipt/list_warehouse_receipt_screen.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/modules/acc_detail/account_detail_screen.dart';
+import 'package:ql_ban_hang/modules/details/detail_customer/customer_detail_screen.dart';
+import 'package:ql_ban_hang/modules/details/detail_product/detail_product_screen.dart';
+import 'package:ql_ban_hang/modules/details/detail_request_return/detail_request_return_screen.dart';
+import 'package:ql_ban_hang/modules/details/detail_sales_invoice/detail_sales_invoice_screen.dart';
+import 'package:ql_ban_hang/modules/details/detail_warehouse_receipt/detail_warehouse_receipt_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_customer/list_customer_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_personnel/list_personnel_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_product/list_product_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_request_return/list_request_return_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_sales_order/list_sales_order_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_supplier/list_supplier_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_warehouse_receipt/list_warehouse_receipt_screen.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 
 class DataTool {
   String? name;

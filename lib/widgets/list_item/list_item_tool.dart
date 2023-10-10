@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
 
-import 'package:quan_ly_ban_hang/modules/list/list_tools/data_tools.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/modules/list/list_tools/data_tools.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 Widget itemTool({
   Color? textColor,
@@ -38,8 +38,8 @@ Widget itemTool({
                 Colors.white,
             radius: 30,
             child: Center(
-                child: dataTool?.icon!(
-                        (clearBackgroundColor != null) ? b500 : null) ??
+                child: dataTool
+                        ?.icon!((clearBackgroundColor != null) ? b500 : null) ??
                     const SizedBox()),
           ),
         ),

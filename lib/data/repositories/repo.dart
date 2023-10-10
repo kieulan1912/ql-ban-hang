@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/config/config.dart';
 
 // // String baseUrl =  'http://localhost:8080'; // ios
 // // String baseUrl =  'http://127.0.0.1:8080'; // ios

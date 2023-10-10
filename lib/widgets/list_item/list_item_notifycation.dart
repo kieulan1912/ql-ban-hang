@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 
 Widget itemNotifycation({String? title, String? date, Function? onTap}) {
   return GestureDetector(

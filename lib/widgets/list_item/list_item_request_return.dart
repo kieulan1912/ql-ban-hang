@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/data/models/request_return.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_request_return/detail_request_return_screen.dart';
-import 'package:quan_ly_ban_hang/widgets/compoment/icon_title_title.dart';
-import 'package:quan_ly_ban_hang/widgets/compoment/status_status.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/data/models/request_return.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/modules/details/detail_request_return/detail_request_return_screen.dart';
+import 'package:ql_ban_hang/widgets/compoment/icon_title_title.dart';
+import 'package:ql_ban_hang/widgets/compoment/status_status.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 // item hoa đơn bán hàng
 Widget itemRequestReturn(

@@ -1,6 +1,6 @@
 {
-    "name": "quan_ly_ban_hang",
-    "short_name": "quan_ly_ban_hang",
+    "name": "ql_ban_hang",
+    "short_name": "ql_ban_hang",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,12 +1,12 @@
 import 'package:appwrite/appwrite.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
-import 'package:quan_ly_ban_hang/data/models/detail_request_return.dart';
-import 'package:quan_ly_ban_hang/data/models/request_return.dart';
-import 'package:quan_ly_ban_hang/data/repositories/appwrite_repo.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_request_return/list_request_return_controller.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/data/models/detail_request_return.dart';
+import 'package:ql_ban_hang/data/models/request_return.dart';
+import 'package:ql_ban_hang/data/repositories/appwrite_repo.dart';
+import 'package:ql_ban_hang/modules/list/list_request_return/list_request_return_controller.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 
 ListRequestReturnController listRequestReturnController = Get.find();
 

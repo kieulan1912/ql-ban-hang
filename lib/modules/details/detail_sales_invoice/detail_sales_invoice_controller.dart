@@ -4,24 +4,24 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:quan_ly_ban_hang/data/models/customer.dart';
-import 'package:quan_ly_ban_hang/data/models/detail_sales_order.dart';
-import 'package:quan_ly_ban_hang/data/models/personnel.dart';
-import 'package:quan_ly_ban_hang/data/models/product.dart';
-import 'package:quan_ly_ban_hang/data/models/sales_order.dart';
-import 'package:quan_ly_ban_hang/data/models/select_option_item.dart';
-import 'package:quan_ly_ban_hang/data/models/status.dart';
-import 'package:quan_ly_ban_hang/data/models/unit.dart';
-import 'package:quan_ly_ban_hang/data/models/user.dart';
-import 'package:quan_ly_ban_hang/data/repositories/imgur_repo.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/appwrite_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/customer_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/personnel_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/product_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/sales_order_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/mixin/user_mixin.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/data/models/customer.dart';
+import 'package:ql_ban_hang/data/models/detail_sales_order.dart';
+import 'package:ql_ban_hang/data/models/personnel.dart';
+import 'package:ql_ban_hang/data/models/product.dart';
+import 'package:ql_ban_hang/data/models/sales_order.dart';
+import 'package:ql_ban_hang/data/models/select_option_item.dart';
+import 'package:ql_ban_hang/data/models/status.dart';
+import 'package:ql_ban_hang/data/models/unit.dart';
+import 'package:ql_ban_hang/data/models/user.dart';
+import 'package:ql_ban_hang/data/repositories/imgur_repo.dart';
+import 'package:ql_ban_hang/share_function/mixin/appwrite_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/customer_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/personnel_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/product_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/sales_order_mixin.dart';
+import 'package:ql_ban_hang/share_function/mixin/user_mixin.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 import 'package:uuid/uuid.dart';
 
 class DetailSalesInvoiceController extends GetxController
@@ -582,9 +582,7 @@ class DetailSalesInvoiceController extends GetxController
     // });
     // (tổng tiền + tiền thuế ) - (thanh toán 1 phần + giảm giá) + phụ phí
     return ((totalMoneyData) +
-            ((totalMoneyData) *
-                (double.parse(vatTE?.text ?? '0')) /
-                100)) -
+            ((totalMoneyData) * (double.parse(vatTE?.text ?? '0')) / 100)) -
         (double.parse(partlyPaidTE?.text ?? '0') +
             ((totalMoneyData) *
                 (double.parse(discountTE?.text ?? '0')) /

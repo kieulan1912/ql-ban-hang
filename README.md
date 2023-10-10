@@ -13,7 +13,7 @@
 
 ## Bản cài
 
-Android: [OMIYAGE - Ứng dụng trên Google Play](https://play.google.com/store/apps/details?id=com.vqh2602.qlbh.quan_ly_ban_hang)
+Android: [OMIYAGE - Ứng dụng trên Google Play](https://play.google.com/store/apps/details?id=com.vqh2602.qlbh.ql_ban_hang)
 
 Ios: [OMIYAGE - Ứng dụng trên IOS, IPAD](https://testflight.apple.com/join/zLF3f7X1)
 

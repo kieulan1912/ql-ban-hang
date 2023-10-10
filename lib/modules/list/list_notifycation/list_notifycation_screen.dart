@@ -3,19 +3,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:get/get.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_request_return/detail_request_return_screen.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_sales_invoice/detail_sales_invoice_screen.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_warehouse_receipt/detail_warehouse_receipt_screen.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_notifycation/list_notifycation_controller.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/library/tabtoexpand.dart';
-import 'package:quan_ly_ban_hang/widgets/list_item/list_item_notifycation.dart';
-import 'package:quan_ly_ban_hang/widgets/shimmer/loading/loadding_refreshindicator.dart';
-import 'package:quan_ly_ban_hang/widgets/shimmer/loading/loding_list.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/modules/details/detail_request_return/detail_request_return_screen.dart';
+import 'package:ql_ban_hang/modules/details/detail_sales_invoice/detail_sales_invoice_screen.dart';
+import 'package:ql_ban_hang/modules/details/detail_warehouse_receipt/detail_warehouse_receipt_screen.dart';
+import 'package:ql_ban_hang/modules/list/list_notifycation/list_notifycation_controller.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/library/tabtoexpand.dart';
+import 'package:ql_ban_hang/widgets/list_item/list_item_notifycation.dart';
+import 'package:ql_ban_hang/widgets/shimmer/loading/loadding_refreshindicator.dart';
+import 'package:ql_ban_hang/widgets/shimmer/loading/loding_list.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 class ListNotifycationSreen extends StatefulWidget {
   const ListNotifycationSreen({super.key});
@@ -234,7 +234,8 @@ class _ListNotifycationState extends State<ListNotifycationSreen> {
           shrinkWrap: true,
           padding: const EdgeInsets.only(bottom: 20),
           itemCount: isPreview
-              ? (listNotifycationController.listWarehouseReceipt?.length ?? 0) > 3
+              ? (listNotifycationController.listWarehouseReceipt?.length ?? 0) >
+                      3
                   ? 3
                   : listNotifycationController.listWarehouseReceipt?.length ?? 0
               : listNotifycationController.listWarehouseReceipt?.length ?? 0,

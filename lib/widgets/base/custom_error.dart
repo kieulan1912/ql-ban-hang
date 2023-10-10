@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 
 class CustomError extends StatelessWidget {
   final FlutterErrorDetails errorDetails;
@@ -26,7 +26,7 @@ class CustomError extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             textHeadlineMedium(
-                 kDebugMode
+                kDebugMode
                     ? errorDetails.summary.toString()
                     : 'Oups! Hình như đã có lỗi sảy ra!',
                 textAlign: TextAlign.center,

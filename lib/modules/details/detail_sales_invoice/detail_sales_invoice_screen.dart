@@ -4,22 +4,22 @@ import 'package:flutter/rendering.dart';
 import 'package:flutx_ui/flutx.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
-import 'package:quan_ly_ban_hang/modules/details/detail_sales_invoice/detail_sales_invoice_controller.dart';
-import 'package:quan_ly_ban_hang/modules/print_pos/print_pos.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
-import 'package:quan_ly_ban_hang/widgets/compoment/box_detail.dart';
-import 'package:quan_ly_ban_hang/widgets/compoment/icon_title_2line.dart';
-import 'package:quan_ly_ban_hang/widgets/compoment/icon_title_icon_title.dart';
-import 'package:quan_ly_ban_hang/widgets/compoment/status_status.dart';
-import 'package:quan_ly_ban_hang/widgets/list_item/list_item_product.dart';
-import 'package:quan_ly_ban_hang/share_function/share_funciton.dart';
-import 'package:quan_ly_ban_hang/widgets/loading_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/s_show_chose.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
-import 'package:quan_ly_ban_hang/widgets/theme_textinput.dart';
-import 'package:quan_ly_ban_hang/widgets/widgets.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/modules/details/detail_sales_invoice/detail_sales_invoice_controller.dart';
+import 'package:ql_ban_hang/modules/print_pos/print_pos.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/widgets/compoment/box_detail.dart';
+import 'package:ql_ban_hang/widgets/compoment/icon_title_2line.dart';
+import 'package:ql_ban_hang/widgets/compoment/icon_title_icon_title.dart';
+import 'package:ql_ban_hang/widgets/compoment/status_status.dart';
+import 'package:ql_ban_hang/widgets/list_item/list_item_product.dart';
+import 'package:ql_ban_hang/share_function/share_funciton.dart';
+import 'package:ql_ban_hang/widgets/loading_custom.dart';
+import 'package:ql_ban_hang/widgets/s_show_chose.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/theme_textinput.dart';
+import 'package:ql_ban_hang/widgets/widgets.dart';
 
 // tham số truyền vào
 /// [type]: **view** - xem, và sửa; **create** - tạo
@@ -1200,5 +1200,4 @@ class _DetailSalesInvoiceState extends State<DetailSalesInvoiceSreen> {
         elevation: 0,
         backgroundColor: Colors.grey.withOpacity(0));
   }
-
 }

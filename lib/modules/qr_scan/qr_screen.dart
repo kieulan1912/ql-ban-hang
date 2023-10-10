@@ -5,9 +5,9 @@ import 'package:getwidget/getwidget.dart';
 import 'package:lottie/lottie.dart';
 import 'package:lucide_icons/lucide_icons.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
-import 'package:quan_ly_ban_hang/modules/qr_scan/qr_controller.dart';
-import 'package:quan_ly_ban_hang/widgets/base/base.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/modules/qr_scan/qr_controller.dart';
+import 'package:ql_ban_hang/widgets/base/base.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 
 class QrScan extends StatefulWidget {
   const QrScan({super.key});
@@ -120,7 +120,7 @@ class _QrScanState extends State<QrScan> {
                             child: Container(
                               margin: const EdgeInsets.only(top: 12),
                               child: AnimatedContainer(
-                                  margin: const EdgeInsets.only(top: 4 ),
+                                  margin: const EdgeInsets.only(top: 4),
                                   padding: const EdgeInsets.all(4 * 5),
                                   duration: const Duration(seconds: 1),
                                   curve: Curves.fastOutSlowIn,
@@ -314,7 +314,6 @@ class _QrScanState extends State<QrScan> {
                         //     ),
                         //   ),
                         // )
-                     
                       ],
                     ),
                   ),

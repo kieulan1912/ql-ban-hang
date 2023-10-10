@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:quan_ly_ban_hang/widgets/text_custom.dart';
+import 'package:ql_ban_hang/widgets/text_custom.dart';
 
 Widget buttonCustom({
   Function? onTap,
@@ -25,7 +25,7 @@ Widget buttonCustom({
             spacing: 4 * 5,
             children: [
               textBodyMedium(
-                 title,
+                title,
                 fontWeight: FontWeight.w700,
               ),
             ],

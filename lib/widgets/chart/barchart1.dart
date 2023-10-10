@@ -2,7 +2,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-import 'package:quan_ly_ban_hang/c_theme/c_theme.dart';
+import 'package:ql_ban_hang/c_theme/c_theme.dart';
 
 class BarChartSample2 extends StatefulWidget {
   final List<BarChartGroupData> data;
@@ -26,8 +26,8 @@ class BarChartSample2State extends State<BarChartSample2> {
   @override
   void initState() {
     super.initState();
- 
-    final items =widget.data;
+
+    final items = widget.data;
 
     rawBarGroups = items;
 

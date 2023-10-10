@@ -1,12 +1,12 @@
 import 'package:appwrite/appwrite.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quan_ly_ban_hang/config/config.dart';
-import 'package:quan_ly_ban_hang/data/models/detail_warehouse_receipt.dart';
-import 'package:quan_ly_ban_hang/data/models/warehouse_receipt.dart';
-import 'package:quan_ly_ban_hang/data/repositories/appwrite_repo.dart';
-import 'package:quan_ly_ban_hang/modules/list/list_warehouse_receipt/list_warehouse_receipt_controller.dart';
-import 'package:quan_ly_ban_hang/widgets/build_toast.dart';
+import 'package:ql_ban_hang/config/config.dart';
+import 'package:ql_ban_hang/data/models/detail_warehouse_receipt.dart';
+import 'package:ql_ban_hang/data/models/warehouse_receipt.dart';
+import 'package:ql_ban_hang/data/repositories/appwrite_repo.dart';
+import 'package:ql_ban_hang/modules/list/list_warehouse_receipt/list_warehouse_receipt_controller.dart';
+import 'package:ql_ban_hang/widgets/build_toast.dart';
 
 ListWarehouseReceiptController listWarehouseReceiptController = Get.find();
 
