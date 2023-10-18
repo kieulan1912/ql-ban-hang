@@ -62,22 +62,23 @@ mixin AppWriteMixin {
         await box.write(Storages.dataLoginTime, DateTime.now().toString());
         // Get.offAndToNamed(SplashScreen.routeName);
 
-        return buildToast(
+        buildToast(
             title: 'Đăng nhập thành công',
             message: 'Chào mừng ${user.name}',
             status: TypeToast.getSuccess);
-        // return user;
+        return user;
       } else {
-        return buildToast(
+        buildToast(
             title: 'Có lỗi xảy ra',
             message: 'Số điện thoại hoặc mật khẩu không đúng',
             status: TypeToast.getError);
+        return null;
       }
     } on Exception catch (_) {
-      return buildToast(
+      buildToast(
           title: 'Có lỗi xảy ra', message: '', status: TypeToast.getError);
     }
-    // return null;
+    return null;
   }
 
   /// ds đơn vị

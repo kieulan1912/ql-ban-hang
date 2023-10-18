@@ -1,7 +1,7 @@
 import 'package:lucide_icons/lucide_icons.dart';
+import 'package:ql_ban_hang/widgets/loading_custom.dart';
 import 'package:ql_ban_hang/modules/auth/login/login_controller.dart';
 import 'package:ql_ban_hang/widgets/base/base.dart';
-import 'package:ql_ban_hang/widgets/loading_custom.dart';
 import 'package:ql_ban_hang/widgets/text_custom.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:get/get_navigation/src/snackbar/snackbar_controller.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:ql_ban_hang/main.dart' as app;
+import 'package:ql_ban_hang/modules/auth/login/login_screen.dart';
 import 'package:ql_ban_hang/modules/splash/splash_screen.dart' as splash;
 
 void main() {
@@ -29,7 +31,7 @@ void main() {
 
           await Future.delayed(const Duration(seconds: 2));
           expect(find.byType(splash.SplashScreen), findsOneWidget);
-          await Future.delayed(const Duration(seconds: 10));
+          await Future.delayed(const Duration(seconds: 2));
         },
       );
       testWidgets(
@@ -51,8 +53,7 @@ void main() {
           await tester.pumpAndSettle(const Duration(seconds: 1));
 
           await Future.delayed(const Duration(seconds: 2));
-          // expect(find.byType(splash.SplashScreen), findsOneWidget);
-          expect(find.byKey(const Key("alertDialogKey")), findsOneWidget);
+          expect(find.byType(LoginScreen), findsOneWidget);
         },
       );
     },

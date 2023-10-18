@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:ql_ban_hang/data/repositories/imgur_repo.dart';
@@ -65,11 +66,13 @@ class SplashController extends GetxController
       if (arguments?["refreshToken"] ?? false) {
         await imgurRepo.resetTokenImgur();
       }
-      Future.delayed(const Duration(seconds: 4), () {
+      Future.delayed(const Duration(seconds: 2), () {
         Get.offAndToNamed(HomeScreen.routeName);
       });
     } else {
-      Future.delayed(const Duration(seconds: 4), () {
+      Get.snackbar("Thông báo", "Đăng nhập thất bại!",
+          backgroundColor: Colors.red.shade200, icon: const Icon(Icons.error));
+      Future.delayed(const Duration(seconds: 2), () {
         Get.offAndToNamed(LoginScreen.routeName);
       });
     }
