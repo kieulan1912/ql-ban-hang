@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:get/get_navigation/src/snackbar/snackbar_controller.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:ql_ban_hang/main.dart' as app;
 import 'package:ql_ban_hang/modules/auth/login/login_screen.dart';
